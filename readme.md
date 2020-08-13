@@ -1,3 +1,2 @@
-# About
-
-This is the official website for Github Projects and other coding related activities made by Laurenz Reinthaler aka Schweini07.
+# Schweini07's Website
+[Website](schweini07.github.io)
