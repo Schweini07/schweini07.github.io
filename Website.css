@@ -1,0 +1,53 @@
+﻿html
+{
+	background-image: url("Images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg
+{
+	background-color: rgba(0, 0, 0, 0.85);
+	width: 50%;
+	height: 1000px;
+	transform: translateX(50%);
+	border-radius: 20px;
+	padding: 1px;
+}
+
+.content
+{
+	padding: 10px;
+}
+
+h1, h2
+{
+	text-align: center;
+	color: white;
+}
+
+h3, h4, h5
+{
+	text-decoration: underline;
+	color: white;
+}
+
+p
+{
+	color: white;
+}
+
+a
+{
+	color: lightblue;
+}
+
+a:hover
+{
+	color: rgb(20, 20, 212);
+}
+
+ul
+{
+	color: white;
+}
