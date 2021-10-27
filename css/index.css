@@ -1,6 +1,6 @@
 ﻿html
 {
-	background-image: url("Images/background.png");
+	background-image: url("../img/background.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -15,14 +15,28 @@
 	padding: 1px;
 }
 
+.nav
+{
+	text-align: center;
+}
+
 .content
 {
-	padding: 10px;
+	border: none;
+	height: 100%;
+	width: 100%;
+	border: none;
 }
 
 h1, h2
 {
 	text-align: center;
+	color: white;
+}
+
+button
+{
+	background-color: black;
 	color: white;
 }
 
@@ -37,17 +51,16 @@ p
 	color: white;
 }
 
+a {
+	text-decoration: none;
+}
+
 a
 {
-	color: lightblue;
+	color: #44F;
 }
 
 a:hover
 {
-	color: rgb(20, 20, 212);
-}
-
-ul
-{
-	color: white;
+	color: #f00;
 }
