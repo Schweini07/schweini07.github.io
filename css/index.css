@@ -3,13 +3,14 @@
 	background-image: url("../img/background.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-color: black;
 }
 
 .bg
 {
 	background-color: rgba(0, 0, 0, 0.85);
 	width: 50%;
-	height: 1000px;
+	height: 100vh;
 	transform: translateX(50%);
 	border-radius: 20px;
 	padding: 1px;
@@ -18,6 +19,15 @@
 .nav
 {
 	text-align: center;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.navlink
+{
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 .content
@@ -25,7 +35,6 @@
 	border: none;
 	height: 100%;
 	width: 100%;
-	border: none;
 }
 
 h1, h2
